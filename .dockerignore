@@ -1,0 +1,9 @@
+node_modules
+.git
+.gitignore
+.pglite_data
+client/dist
+client/node_modules
+server/dist
+server/node_modules
+*.log

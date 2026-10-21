@@ -146,6 +146,19 @@ npm run build
 npm start
 ```
 
+### 7. Docker & Fly.io Deployment
+Build and run the multi-stage Alpine container locally:
+```bash
+docker build -t developer-network-mentorship-matcher .
+docker run -p 3000:3000 developer-network-mentorship-matcher
+```
+
+Deploy directly to Fly.io using the included `fly.toml`:
+```bash
+fly launch
+fly deploy
+```
+
 ---
 
 ## 📡 API Reference Contract
